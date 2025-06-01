@@ -93,14 +93,14 @@ header .fas {
     animation: bgMove 20s ease-in-out infinite alternate;
 }
 
-@keyframes bgMove {
+/* @keyframes bgMove {
     0% {
         background-position: center;
     }
     100% {
         background-position: top right;
     }
-}
+} */
 
 /*-----------------------------------------------------My_Name on black image----------------------------------------------------*/
 
@@ -172,7 +172,7 @@ header .fas {
     opacity: 0;
 }
 
-@keyframes fadeInUp {
+/* @keyframes fadeInUp {
     from {
         opacity: 0;
         transform: translate(-50%, -40%);
@@ -181,7 +181,7 @@ header .fas {
         opacity: 1;
         transform: translate(-50%, -50%);
     }
-}
+} */
 
 
 /*-----------------------------------------------------Header---------------------------------------------------------------------*/
