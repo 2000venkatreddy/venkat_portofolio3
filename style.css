@@ -185,7 +185,7 @@ header .fas {
 
 
 /*-----------------------------------------------------Header---------------------------------------------------------------------*/
-/* .down-arrow {
+.down-arrow {
     position: relative;
     bottom:-250px; 
     left: 50%;
@@ -202,8 +202,8 @@ header .fas {
 
 header .fas{
     display:none;
-} */
-.down-arrow a i {
+}
+/* .down-arrow a i {
     animation: bounce 2s infinite;
 }
 
@@ -214,7 +214,7 @@ header .fas{
     50% {
         transform: translateY(-10px);
     }
-}
+} */
 /*-----------------------------------------------------About me---------------------------------------------------------------------*/
 
 #about {
