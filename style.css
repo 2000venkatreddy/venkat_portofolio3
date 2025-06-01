@@ -143,6 +143,10 @@ header .fas {
     text-align: center;
     opacity: 0;
     animation: fadeInUp 1.5s ease-out forwards;
+    width: 100vw; /* Full viewport width */
+    max-width: 100%;
+    padding: 0 20px; /* Responsive padding */
+    box-sizing: border-box;
 }
 
 .overlay h1 {
