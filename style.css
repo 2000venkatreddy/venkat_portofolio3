@@ -105,7 +105,7 @@ header .fas {
 /*-----------------------------------------------------My_Name on black image----------------------------------------------------*/
 
 
-.overlay {
+/* .overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -133,8 +133,8 @@ header .fas {
 .overlay:hover{
     text-shadow: 0 0 25px rgb(239, 233, 233);
     color:white;
-}
-/* .overlay {
+} */
+.overlay {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -171,7 +171,7 @@ header .fas {
     animation-delay: 0.4s;
     opacity: 0;
 }
- */
+
 @keyframes fadeInUp {
     from {
         opacity: 0;
