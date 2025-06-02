@@ -902,6 +902,31 @@ footer {
         display: none;
     }
 }
+@media (max-width: 769px) {
+    .overlay {
+        top: 30%;
+        left: 10%;
+        bottom: 30%;
+        transform: translate(-50%, -50%);
+        padding: 0 10px;
+    }
+
+    .overlay h1 {
+        font-size: 24px; 
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+
+    .down-arrow {
+        bottom: -450px;
+    }
+
+    .down-arrow a {
+        font-size: 2.5em;
+    }
+}
 
 
 @media (max-width: 768px) {
@@ -1002,6 +1027,31 @@ footer {
         display: block; /* Ensure the image is displayed as a block element */
     }
 }
+}
+@media (max-width: 480px) {
+    .overlay {
+        top: 30%;
+        left: 10%;
+        bottom: 30%;
+        transform: translate(-50%, -50%);
+        padding: 0 10px;
+    }
+
+    .overlay h1 {
+        font-size: 24px; 
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+
+    .down-arrow {
+        bottom: -450px;
+    }
+
+    .down-arrow a {
+        font-size: 2.5em;
+    }
 }
 
 @media (max-width: 480px) {
