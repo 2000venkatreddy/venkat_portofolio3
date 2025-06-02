@@ -255,7 +255,7 @@ header .fas{
 
 .about-col-2 h1 {
     font-size: 2em;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;    
     color: brown;
     margin-bottom: 20px;
 }
@@ -804,6 +804,33 @@ footer {
 
 
 /* Responsive styles */
+
+
+@media (max-width: 768px) {
+    .overlay {
+        top: 30%;
+        left: 10%;
+        bottom: 30%;
+        transform: translate(-50%, -50%);
+        padding: 0 10px;
+    }
+
+    .overlay h1 {
+        font-size: 24px; 
+    }
+
+    .overlay p {
+        font-size: 1rem;
+    }
+
+    .down-arrow {
+        bottom: -450px;
+    }
+
+    .down-arrow a {
+        font-size: 2.5em;
+    }
+}
 
 /* Toggle open/close menu for mobile view */
 @media (max-width: 768px) {
