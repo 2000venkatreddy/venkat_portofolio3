@@ -121,24 +121,26 @@ body.block-scroll {
 } */
  
 #main-content {
-    margin-top: 80px;
-    width: 100%;
-    height: 91vh;
-    background-image: url('image1.webp');
-    background-size: cover;
-    background-position: center;
-    position: relative;
-    padding-top: 110px;
-    animation: bgMove 20s ease-in-out infinite alternate;
-}
-@keyframes bgMove {
-    0% {
-        background-position: center;
+      margin-top: 80px;
+      width: 100%;
+      height: 91vh;
+      background-image: url('image1.webp');/* Your actual background image */
+      background-repeat: repeat-y;
+      background-size: 100% auto;
+      background-position: 0 0;
+      position: relative;
+      padding-top: 110px;
+      animation: bgScrollVertical 50s linear infinite;
     }
-    100% {
-        background-position: top right;
+
+    @keyframes bgScrollVertical {
+      from {
+        background-position: 0 0;
+      }
+      to {
+        background-position: 0 1000px;
+      }
     }
-}
 
 
 /*-----------------------------------------------------My_Name on black image----------------------------------------------------*/
