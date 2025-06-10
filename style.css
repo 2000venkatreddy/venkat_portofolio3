@@ -81,7 +81,7 @@ header .fas {
 /* Page fade-in animation on load */
 body {
   opacity: 0;
-  animation: fadeInPage 1.2s ease-in-out forwards;
+  animation: fadeInPage 2s ease-in-out forwards;
 }
 
 body.block-scroll {
